@@ -1,0 +1,29 @@
+<template>
+    <div class="card">
+        <div class={headerColor}>
+          <p>
+            {type}
+          </p>
+        </div>
+        <div class="slds-p-around_medium card-details">
+          <div class="slds-text-align_left align-name ">
+            <p class="company-name">
+              <a href={companyUrl} target="_blank">{companyName} <lightning-icon
+                  icon-name="utility:new_window" alternative-text="New Window" size="xx-small"></lightning-icon></a>
+            </p>
+            <p class="location-name">Hiring Locations: {location}</p>
+          </div>
+          <lightning-layout>
+          <div class="slds-align_absolute-left signup-btn">
+            <a href={interviewSignUpUrl} target="_blank"
+              class="slds-button slds-button_neutral vftheme-button signup-button" onclick={handleClick}>
+              Sign Up</a>
+          </div>
+          <div if:true={showImage} class="slds-align_absolute-right slds-align-bottom bottom-image">
+            <img src="">
+          </div>
+        </lightning-layout>
+        </div>
+
+      </div>
+</template>

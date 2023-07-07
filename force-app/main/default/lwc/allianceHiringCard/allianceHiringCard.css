@@ -1,0 +1,69 @@
+/* Copyright (c) 2023 Salesforce.com, inc. All rights reserved. */
+  .bottom-image{
+    border: 2px solid black;
+    border-bottom-right-radius: 20px;
+    height: 110px;
+    width: 110px;
+    margin-left: 52px;
+    margin-top: 25px;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 270.4px;
+   
+    border-style: none;
+    box-shadow: 0px 1px 3px 1px rgb(0 0 0 / 7%);
+  }
+  .card-details{
+    padding: 7px 0px 0px 20px;
+  }
+  .card:hover {
+    box-shadow:0px 2px 4px 2px rgb(0 0 0 / 7%);
+  }
+  .company-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #0b5cab;
+    font-family: inherit;
+    margin-top: 40px;
+  }
+  .green{
+    background-color: green;
+  }
+  .purple{
+   background-color: purple;
+  }
+  .blue{
+    background-color: #0b5cab;
+   }
+  .type-format {
+    color:  #f5f5f5;
+    font-size: 14px;
+    padding: 7px 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+  }
+  .signup-button {
+    height: 42px;
+    margin-top: auto;
+    background: #ffffff;
+    border: 3px solid rgb(0, 112, 210);
+    color: rgb(0, 112, 210);
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight : bold;
+  }
+  .location-name {
+    color: rgb(30, 30, 30);
+    font-family: inherit;
+    height: 50px;
+    font-size: 16px;
+  }
+  .align-name {
+    margin-top: -8%;
+  }
+  .signup-btn {
+    margin-top: 7%;
+  }
